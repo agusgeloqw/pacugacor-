@@ -1,0 +1,383 @@
+body {
+  background-color: #131313;
+  font-family: Arial;
+  color: #FAB82C;
+}
+@keyframes manjang {
+  0% {
+  width: 35%;
+  height: 25px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  float: left;
+  font-size: 13px;
+  padding-left: 5px;
+  }
+  50% {
+      width: 80%;
+  height: 25px;
+  border: none;
+  background-color: #FAB82C;
+  border-radius: 20px;
+  float: left;
+  font-size: 13px;
+  padding-left: 5px;
+  font-style: italic;
+  }
+  100% {
+    width: 35%;
+  height: 25px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  float: left;
+  font-size: 13px;
+  padding-left: 5px;
+  }
+}
+.manjang {
+animation: manjang 5s infinite;
+}
+@keyframes panjang {
+  0% {
+  width: 35%;
+  height: 25px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  float: left;
+  font-size: 13px;
+  padding-left: 5px;
+  }
+  50% {
+      width: 90%;
+  height: 25px;
+  border: none;
+  background-color: #FAB82C;
+  border-radius: 20px;
+  float: left;
+  font-size: 13px;
+  padding-left: 5px;
+  font-style: italic;
+  }
+  100% {
+    width: 35%;
+  height: 25px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  float: left;
+  font-size: 13px;
+  padding-left: 5px;
+  }
+}
+.panjang {
+animation: panjang 5s infinite;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: goldenrod;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade-in{
+  animation: fade-in 2s infinite;
+}
+@keyframes masuk {
+  0% {
+  position: absolute;
+  top: -100;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
+  100% {
+position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
+}
+.header {
+  background-image: url('img/logo.png');
+  background-size: cover;
+  height: 140px;
+  width: 140px;
+  margin: auto;
+  margin-top: -30px;
+  animation: masuk 3s;
+}
+.barong {
+  background-image: url('/img/belah.png');
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  float: right;
+  opacity: 0.2;
+}
+.promosi {
+  background-color: #FAB82C;
+  height: 40px;
+  font-size: 10px;
+  color: #131313;
+  border-radius: 5px;
+  font-family: arial;
+  display: inline-block;
+}
+.banner {
+  background-image: url('img/banner.jpg');
+  background-size: cover;
+  width: 340px;
+  height:190px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.kolom2 {
+  margin-top: 10px;
+  border-top: 2px dotted gold;
+  border-bottom: 5px solid goldenrod;
+}
+.register {
+  height: 50px;
+}
+.login {
+  height: 50px;
+  width: 49%;
+  float: left;
+  background-color: #131313;
+  border: 2px solid #FAB82C;
+  color: #FAB82C;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #FAB82C;
+}
+.daftar {
+  height: 50px;
+  width: 49%;
+  float: right;
+  border: 2px solid #FAB82C;
+  background-color: #131313;
+  color: #FAB82C;
+}
+.provider {
+  width: 100%;
+  height: 100px;
+}
+.pragmatic {
+  background-image: url('asset/pragma.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100px;
+  float: left;
+}
+.idnplay {
+  background-image: url('asset/918kiss.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100px;
+  float: right;
+}
+.pgsoft {
+  background-image: url('asset/pgsoft.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100px;
+  margin: auto;
+}
+.habanero {
+  width: 33%;
+  text-align: center;
+  color: gold;
+  font-size: 10px;
+  position: relative;
+}
+.provider ul {
+  display: inline-block;
+}
+.info {
+  color: white;
+  font-family: Arial;
+}
+.daftargame {
+  width: 100%;
+}
+.game1 {
+  background-size: cover;
+  background-image: url('asset/geol.jpg');
+  height: 250px;
+  width: 49%;
+  float: left;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.daftargame p {
+  padding-top: 180px;
+  color: black;
+  
+}
+.game2 {
+  background-size: cover;
+  background-image: url('asset/princess.jpg');
+  height: 250px;
+  width: 49%;
+  float: right;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.game3 {
+  background-size: cover;
+  background-image: url('asset/mahyong.jpg');
+  height: 250px;
+  width: 49%;
+  float: left;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.game4 {
+  background-size: cover;
+  background-image: url('asset/krismes.jpg');
+  height: 250px;
+  width: 49%;
+  float: right;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.daftargame h2 {
+  color: #FAB82C;
+  text-align: center;
+}
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+  color: #131313;
+}
+
+tbody td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+.progpot {
+  background-image: url('asset/progres.png');
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+#randomNumber {
+  text-align: center;
+  line-height: 200px;
+}
+.foot {
+  height: 200px;
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+.foot p {
+  font-size: 13px;
+  padding-top: -20px;
+}
+.cs {
+  line-height: 15px;
+}
+.deposit {
+  width: 65%;
+  height: 15px;
+  border: none;
+  border-radius: 20px;
+  float: left;
+  font-size: 10px;
+  padding-left: 5px;
+  font-style: italic;
+}
+.pembayaran {
+  width: 100%;
+  height: 100px;
+}
+.payment {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.dana {
+  background-image: url('asset/dana.png');
+  background-size: cover;
+  height: 100%;
+  width: 100px;
+  float: left;
+}
+.gopay {
+  background-image: url('asset/gopay.png');
+  background-size: cover;
+  height: 100%;
+  width: 100px;
+  float: right;
+}
+.jago {
+  background-image: url('asset/jago.png');
+  background-size: cover;
+  height: 100%;
+  width: 100px;
+  margin: auto;
+}
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid goldenrod;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: goldenrod;
+}

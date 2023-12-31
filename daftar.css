@@ -1,0 +1,92 @@
+.logo {
+  background-image: url('/img/logo.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  background-color: #131313;
+  border: 50%;
+}
+body {
+      font-family: Arial, sans-serif;
+      background-color: goldenrod;
+      color: goldenrod;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      padding: 20px;
+      background-color: #131313;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+      color: white;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: white;
+    }
+    
+    .form-group input,
+    .form-group select {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 5px;
+      background-color: #131313;
+      color: white;
+    }
+    
+    .form-group input[type="submit"] {
+      background-color: #131313;
+      border: 2px solid goldenrod;
+      color: white;
+      cursor: pointer;
+    }
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid goldenrod;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: goldenrod;
+}
